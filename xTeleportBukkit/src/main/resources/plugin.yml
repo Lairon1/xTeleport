@@ -1,0 +1,35 @@
+name: xTeleport
+version: '${version}'
+main: com.lairon.xteleport.xteleportbukkit.TeleportPlugin
+api-version: 1.17
+softdepend:
+  - PlaceholderAPI
+  - WorldEdit
+loadbefore:
+  - Essentials
+commands:
+#  home
+  home:
+  homes:
+  setHome:
+  removeHome:
+    aliases: [remHome, delHome, deleteHome]
+  moveHome:
+#  warp
+  warp:
+  warps:
+  setWarp:
+  removeWarp:
+    aliases: [remWarp, delWarp, deleteWarp]
+  moveWarp:
+# spawn
+  spawn:
+  spawns:
+  setSpawn:
+  removeSpawn:
+    aliases: [remSpawn, delSpawn, deleteSpawn]
+  moveSpawn:
+# teleport
+  teleport:
+    aliases: [tp, tpto, teleportto]
+  
